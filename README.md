@@ -5,7 +5,7 @@
 ## Software/Languages
 
 
-## Results
+## Analysis and Results
 
 
 ### Linear Regression to Predict MPG
