@@ -80,4 +80,17 @@ To further evaluate PSI of suspension coils, we performed t-tests to determine i
 
 # Study Design: MechaCar vs Competition
 
+## Testing Consumer Interests
 
+In society today, it is important for car manufacturers to anticipate the needs of consumers.  Many consumers lot for vehicles that offer a variety of utility, technology, and fuel efficiency.  With gas prices on the rise, AutosRUs is anticipating consumers will be considering fuel efficiency when it comes to purchasing a car.  In this analysis, we will design a statistical study that evaluates fuel efficiency of cars from AutosRUs vs it's competitors.
+
+- We begin by selecting the data we wish to evaluate.  For this exercise, we would need two sets of numerical, continuous data: a large population of data that describes the MPG for the MechaCar and a large population of data that describes MPG for a competitor(we will use Dyno's prototype AuraMatic as a comparer).
+  - For this our metrics will be the mean of the MPG for a sample population of MechaCars and the mean of the MPG for a sample population of AuraMatics.
+
+- Hypothesis:
+  - H-0: Our null hypothesis is the true mean difference between AuraMatic and MechaCars MPG is equal to zero.
+  - H-a: Our alternative hypothesis is the true mean difference between AuraMatic and MechaCars is not equal to zero.
+
+- We are comparing the populations of two different datasets, thus we will perform a Two sample t-test to evaluate the means of MPG for AuraMatic and MechaCars.  We will need a representive same of the MPGs of each vehicle.
+
+- From this analysis, MechaCars will be able to determine if there is a difference in the mean MPG of AuraMatics and MechaCars.  From performing a t-test of the two samples, we will be able to determine a probability value, (p-value), that will indicate if there is a statistical difference in the samples of two comparable vehicles. In addition, any factors that impact the MPG, such as those described above in previous tests, could become more important for improving the MPG for AutosRUs's MechaCar.
