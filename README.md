@@ -55,8 +55,8 @@ To further evaluate PSI of suspension coils, we performed t-tests to determine i
 
 ### PSI Across All Lots
 
-- Using a random sample size of n(50), we were able to compare if the PSI across all lots is statistically different from the population mean.  We found:
-  - We must fail to reject our null hypothesis.  This is because our p-value is .796 which is higher than our standard confidence level of .05%.  This would mean there is no statistical difference in the means of a sample of all the lots and the entire manufacturing lot population.
+- Using a t-test, we were able to compare if the PSI across all lots is statistically different from the population mean of 1500.  We found:
+  - We must fail to reject our null hypothesis.  This is because our p-value is .06 which is higher than our standard confidence level of .05%.  This would mean there is no statistical difference in the means of a sample of all the lots and the entire manufacturing lot population.
 
   ![allPSI](Resources/allPSI.png)
 
@@ -68,22 +68,14 @@ To further evaluate PSI of suspension coils, we performed t-tests to determine i
   - If we assume a population mean of 1500 PSI for the lot population, we find we must fail to reject our null hypothesis.  This is because of P value is 1, which is higher than our standard confidence level of .05%. With an assumed PSI of 1500 for the entire population, we find no significant difference in the population mean for Lot1. 
   ![lotPSI](Resources/lot11500PSI.png)
   
-  - If we use the mean PSI for the lot population(1498.78), we find we must reject our null hypothesis.  This is because of P value is 1.568e-11, which is much lower than our standard confidence level of .05%. With the mean PSI for the entire population, we find there is a significant difference in the mean for Lot1. 
-  ![lotPSI](Resources/lot1PSI.png)
   
   - If we assume a population mean of 1500 PSI for the lot population, we find we must fail to reject our null hypothesis.  This is because of P value is .6072, which is higher than our standard confidence level of .05%. With an assumed PSI of 1500 for the entire population, we find no significant difference in the population mean for Lot2. 
   ![lotPSI](Resources/lot21500PSI.png)
   
-  - If we use the mean PSI for the lot population(1498.78), we find we must reject our null hypothesis.  This is because of P value is .0005911, which is smaller than our standard confidence level of .05%. With the mean PSI for the entire population, we find there is significant difference in the mean for Lot2. 
-  
-  ![lotPSI](Resources/lot2PSI.png)
   
   - If we assume a population mean of 1500 PSI for the lot population, we find we must reject our null hypothesis.  This is because of P value is .0416, which is lower than our standard confidence level of .05%. With an assumed PSI of 1500 for the entire population, we find there is a significant difference in the population mean for Lot3.
   ![lotPSI](Resources/lot31500PSI.png)
-  
-  - If we use the mean PSI for the lot population(1498.78), we find we must fail to reject our null hypothesis.  This is because of P value is .1589, which is higher than our standard confidence level of .05%. With the mean PSI for the entire population, we find no significant difference in the population mean for Lot3.
-  
-  ![lotPSI](Resources/lot3PSI.png)
+ 
 
 # Study Design: MechaCar vs Competition
 
